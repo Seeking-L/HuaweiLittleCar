@@ -1,0 +1,18 @@
+
+static_library("handsomebai_car_test") {
+    sources = [
+        "bai_car.c",
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//applications//sample//wifi-iot//app//handsomebai_version",
+        "//kernel/liteos_m/components/cmsis/2.0",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//device/soc/hisilicon/hi3861v100/hi3861_adapter/hals/communication/wifi_lite/wifiservice",
+        "//device/soc/hisilicon/hi3861v100/hi3861_adapter/kal",
+        "//device/soc/hisilicon/hi3861v100/sdk_liteos/third_party/lwip_sack/include",
+        "//third_party/cJSON/",
+        "//foundation/communication/wifi_lite/interfaces/wifiservice",
+    ]
+}

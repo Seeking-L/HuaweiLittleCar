@@ -1,0 +1,8 @@
+{
+  "root_path": "E:\\hi3861\\src",
+  "product": "wifiiot_hispark_pegasus",
+  "product_path": "E:\\hi3861\\src\\vendor\\hisilicon\\hispark_pegasus",
+  "board": "hispark_pegasus",
+  "kernel": "liteos_m",
+  "device_path": "E:\\hi3861\\src\\device\\hisilicon\\hispark_pegasus\\sdk_liteos"
+}
